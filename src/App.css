@@ -33,7 +33,7 @@ form.landing-page-form fieldset legend {
   font-size: 32px;
   line-height: 34px;
   color: #5c8599;
-  font-weight: 700;
+  font-weight: 700; 
 
   border-bottom: 1px solid #d3e2e5;
   margin-bottom: 20px;
@@ -72,7 +72,7 @@ form.landing-page-form .input-block input {
   padding: 0 16px;
 }
 
-form.landing-page-form button.confirm-button {
+form.landing-page-form button.confirm-reset {
   margin-top: 34px;
 
   width: 100%;
@@ -87,9 +87,30 @@ form.landing-page-form button.confirm-button {
   transition: background-color 0.2s;
 }
 
-form.landing-page-form button.confirm-button:hover {
+form.landing-page-form button.confirm-reset:hover {
   background-color: #6c79f5;
 }
+
+
+form.landing-page-form button.confirm-button {
+  margin-top: 34px;
+
+  width: 100%;
+  height: 64px;
+  border: 0;
+  cursor: pointer;
+  background-color: #39FF14;
+  border-radius: 20px;
+  color: #ffffff;
+  font-weight: 800;
+
+  transition: background-color 0.2s;
+}
+
+form.landing-page-form button.confirm-button:hover {
+  background-color: #39FF14;
+}
+
 
 /* Pop Up - Marker */
 
@@ -117,6 +138,39 @@ form.landing-page-form button.confirm-button:hover {
 #page-map .map-popup .leaflet-popup-tip-container {
   display: none;
 }
+
+#page-map .map-popup .leaflet-popup-content .edit-button {
+  margin-top: 34px;
+  
+  width: 50%;
+  height: 30px;
+  border: 0;
+  cursor: pointer;
+  background-color: #4254f5;
+  border-radius: 10px;
+  color: #ffffff;
+  font-weight: 800;
+
+  transition: background-color 0.2s;
+
+} 
+
+
+#page-map .map-popup .leaflet-popup-content .delete-button {
+  margin-top: 34px;
+
+  width: 50%;
+  height: 30px;
+  border: 0;
+  cursor: pointer;
+  background-color: #ec0a2f;
+  border-radius: 10px;
+  color: #ffffff;
+  font-weight: 800;
+
+  transition: background-color 0.2s;
+
+} 
 
 /* Styling react select */
 
