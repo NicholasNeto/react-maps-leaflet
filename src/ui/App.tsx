@@ -2,7 +2,7 @@ import "leaflet/dist/leaflet.css";
 
 import React, { FormEvent, useState } from "react";
 import { MapContainer } from "react-leaflet";
-import { Marker, Popup, TileLayer } from "react-leaflet";
+import { Marker, TileLayer } from "react-leaflet";
 import Leaflet from "leaflet";
 import { v4 as uuidv4 } from "uuid";
 
@@ -11,6 +11,7 @@ import AsyncSelect from "react-select/async";
 
 import mapPackage from "../../src/imagens/package.svg";
 import mapPin from "../../src/imagens/pin.svg";
+import CustomPopup from "./component/popup";
 
 import "../../src/css/App.css";
 
@@ -51,7 +52,7 @@ function App() {
 
   const defaultDate = new Date();
   const [isEditing, setIsEditing] = useState(false);
-  
+
   const [id, setId] = useState('');
   const [name, setName] = useState("");
   const [complement, setComplement] = useState("");
@@ -180,7 +181,7 @@ function App() {
       <main>
         <form onSubmit={handleSubmit} onReset={handleFormReset} className="landing-page-form">
           <fieldset>
-            { isEditing ?  <legend>Alteração Dados</legend> : <legend>Entregas</legend>  }
+            {isEditing ? <legend>Alteração Dados</legend> : <legend>Entregas</legend>}
 
             <div className="input-block">
               <label htmlFor="name">Nome</label>
@@ -256,26 +257,11 @@ function App() {
             icon={mapPackageIcon}
             position={[delivery.latitude, delivery.longitude]}
           >
-            <Popup
-              closeButton={false}
-              minWidth={240}
-              maxWidth={240}
-              className="map-popup"
-            >
-              <div>
-                <h3>{delivery.name}</h3>
-
-                <h4>{'Endereço:'}</h4>
-                <p>{delivery.address} - {delivery.complement} </p>
-                <h4>{'Data de Entrega:'}</h4>
-                <p>{delivery.date}</p>
-
-
-                <button name='edit' className="edit-button" value={delivery.id} onClick={modifierDelivery} >Editar</button>
-                <button name='delete' className="delete-button" value={delivery.id} onClick={deletarDelivery} >Excluir</button>
-
-              </div>
-            </Popup>
+            <CustomPopup
+              delivery={delivery}
+              modifierDelivery={modifierDelivery}
+              deletarDelivery={deletarDelivery}
+            />
           </Marker>
         ))}
       </MapContainer>
