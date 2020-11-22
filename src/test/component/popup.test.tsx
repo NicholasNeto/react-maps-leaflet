@@ -19,17 +19,15 @@ describe("[UNIT] Testing the CustomPopup component", () => {
 
   describe("Component validation", () => {
 
+    it('className map-popup', () => {
+      expect(wrapper.exists('.map-popup')).toEqual(true);
+      expect(wrapper.exists('.edit-button')).toEqual(true);
+      expect(wrapper.exists('.delete-button')).toEqual(true);
+    })
+
     it('displays 0 as a default value', () => {
       expect(wrapper.find("h3").text()).toContain("name test")
     })
-    it('contain class map-popup', () => {
-      expect(wrapper.exists('.map-popup')).toEqual(true);
-    })
-    it('contain class edit-button', () => {
-      expect(wrapper.exists('.edit-button')).toEqual(true);
-    })
-    it('contain class edit-button', () => {
-      expect(wrapper.exists('.delete-button')).toEqual(true);
-    })
   })
+  
 })

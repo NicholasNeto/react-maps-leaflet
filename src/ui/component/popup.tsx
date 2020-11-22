@@ -26,7 +26,9 @@ function CustomPopup(props) {
 
                 <button name='edit' className="edit-button" value={props.delivery.id} onClick={props.modifierDelivery} >Editar</button>
                 <button name='delete' className="delete-button" value={props.delivery.id} onClick={props.deletarDelivery} >Excluir</button>
-
+                <button name=''>
+                <a target="_blank" rel="noopener noreferrer" href={`https://www.google.com/maps/dir/?api=1&destination=${props.delivery.latitude},${props.delivery.longitude}`}>Ver rotas no Google Maps</a>
+                </button>
             </div>
         </Popup>
     )
