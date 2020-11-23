@@ -3,7 +3,7 @@ import "leaflet/dist/leaflet.css";
 import React from "react";
 import { Popup } from "react-leaflet";
 import PropTypes from 'prop-types';
-import "../../css/App.css";
+import "../../style/App.css";
 
 function CustomPopup(props) {
 

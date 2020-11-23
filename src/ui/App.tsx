@@ -13,7 +13,7 @@ import mapPackage from "../../src/imagens/package.svg";
 import mapPin from "../../src/imagens/pin.svg";
 import CustomPopup from "./component/popup";
 
-import "../../src/css/App.css";
+import "../../src/style/App.css";
 
 const initialPosition = { lat: -23.5838639, lng: -46.7572651 };
 
