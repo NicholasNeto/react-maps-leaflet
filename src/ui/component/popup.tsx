@@ -2,9 +2,8 @@ import "leaflet/dist/leaflet.css";
 
 import React from "react";
 import { Popup } from "react-leaflet";
-
+import PropTypes from 'prop-types';
 import "../../css/App.css";
-
 
 function CustomPopup(props) {
 
@@ -24,14 +23,26 @@ function CustomPopup(props) {
                 <p>{props.delivery.date}</p>
 
 
+                <span style={{ color: '#0089A5', lineHeight: '24px', textDecoration: 'none' }}>
+                    <a target="_blank" rel="noopener noreferrer" href={`https://www.google.com/maps/dir/?api=1&destination=${props.delivery.latitude},${props.delivery.longitude}`}>Ver rotas no Google Maps</a>
+                </span>
+
                 <button name='edit' className="edit-button" value={props.delivery.id} onClick={props.modifierDelivery} >Editar</button>
                 <button name='delete' className="delete-button" value={props.delivery.id} onClick={props.deletarDelivery} >Excluir</button>
-                <button name=''>
-                <a target="_blank" rel="noopener noreferrer" href={`https://www.google.com/maps/dir/?api=1&destination=${props.delivery.latitude},${props.delivery.longitude}`}>Ver rotas no Google Maps</a>
-                </button>
+
+
             </div>
         </Popup>
     )
 }
+
+CustomPopup.propTypes = {
+    modifierDelivery: PropTypes.func,
+    deletarDelivery: PropTypes.func,
+    delivery: PropTypes.shape({
+        name: PropTypes.string.isRequired,
+        complement: PropTypes.string
+    })
+};
 
 export default CustomPopup;

@@ -69,7 +69,7 @@ function App() {
     let places: any = [];
     if (inputValue.length < 5) return;
     response.features.map((item: any) => {
-      places.push({
+      return places.push({
         label: item.place_name,
         value: item.place_name,
         hours: item.hours,

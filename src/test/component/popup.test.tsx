@@ -8,18 +8,18 @@ describe("[UNIT] Testing the CustomPopup component", () => {
   let wrapper
 
   beforeEach(() => {
-    const helper = {
+    const delivery = {
       name: 'name test',
       address: 'address test',
       componen: 'componen test',
     }
 
-    wrapper = shallow(<CustomPopup delivery={helper} />)
+    wrapper = shallow(<CustomPopup delivery={delivery} />)
   })
 
   describe("Component validation", () => {
 
-    it('className map-popup', () => {
+    it('Exists ClassName', () => {
       expect(wrapper.exists('.map-popup')).toEqual(true);
       expect(wrapper.exists('.edit-button')).toEqual(true);
       expect(wrapper.exists('.delete-button')).toEqual(true);
@@ -29,5 +29,4 @@ describe("[UNIT] Testing the CustomPopup component", () => {
       expect(wrapper.find("h3").text()).toContain("name test")
     })
   })
-  
 })
