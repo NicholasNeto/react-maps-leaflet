@@ -3,10 +3,13 @@ import "leaflet/dist/leaflet.css";
 import React from "react";
 import { Popup } from "react-leaflet";
 import PropTypes from 'prop-types';
+import moment from 'moment'
 import "../../style/App.css";
+function CustomPopup(props: any) {
 
-function CustomPopup(props) {
 
+    const date = moment(props.delivery.date)
+    
     return (
         <Popup
             closeButton={false}
@@ -20,7 +23,7 @@ function CustomPopup(props) {
                 <h4>{'Endereço:'}</h4>
                 <p>{props.delivery.address} - {props.delivery.complement} </p>
                 <h4>{'Data de Entrega:'}</h4>
-                <p>{props.delivery.date}</p>
+                <p>{date.format("MMM Do YY")}</p>
 
 
                 <span style={{ color: '#0089A5', lineHeight: '24px', textDecoration: 'none' }}>
