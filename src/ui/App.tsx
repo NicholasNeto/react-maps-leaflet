@@ -5,6 +5,7 @@ import { MapContainer } from "react-leaflet";
 import { Marker, TileLayer } from "react-leaflet";
 import Leaflet from "leaflet";
 import { v4 as uuidv4 } from "uuid";
+//import { uuidv1 } from 'node-uuid'
 
 import { fetchLocalMapBox } from "../app/apiMapBox";
 import AsyncSelect from "react-select/async";
@@ -12,6 +13,7 @@ import AsyncSelect from "react-select/async";
 import mapPackage from "../../src/imagens/package.svg";
 import mapPin from "../../src/imagens/pin.svg";
 import CustomPopup from "./component/popup";
+import DatePicker from 'react-date-picker';
 
 import "../../src/style/App.css";
 
@@ -36,7 +38,7 @@ interface Delivery {
   name: string;
   address: string;
   complement: string;
-  date: string;
+  date: string | null;
   latitude: number;
   longitude: number;
 }
@@ -47,16 +49,18 @@ type Position = {
 };
 
 function App() {
+
   const [deliveries, setDeliveries] = useState<Delivery[]>([]);
   const [position, setPosition] = useState<Position | null>(null);
+  const [inputDate, setDate] = useState<Date | null >(null);
 
-  const defaultDate = new Date();
+  
   const [isEditing, setIsEditing] = useState(false);
 
   const [id, setId] = useState('');
   const [name, setName] = useState("");
   const [complement, setComplement] = useState("");
-  const [date, setDate] = useState(defaultDate.toISOString());
+  
   const [address, setAddress] = useState<{
     label: string;
     value: string;
@@ -100,9 +104,11 @@ function App() {
     event.preventDefault();
     console.log('handleSubmit')
 
-    if (!address || !name) return;
+    if (!address || !name || !inputDate) return;
 
     let temporaryDeliverieses: Delivery[] = [...deliveries,]
+
+    const date: string = inputDate.toDateString()
 
     let delivery: Delivery = {
       id: uuidv4(),
@@ -127,7 +133,7 @@ function App() {
     setName("");
     setAddress(null);
     setComplement("");
-    setDate("");
+    setDate(null);
     setPosition(null);
     setIsEditing(false);
   }
@@ -154,7 +160,7 @@ function App() {
     setName("");
     setAddress(null);
     setComplement("");
-    setDate("");
+    setDate(null);
     setPosition(null);
   }
 
@@ -216,14 +222,15 @@ function App() {
             </div>
 
             <div className="input-block">
-              <label htmlFor="hours">Horas</label>
-              <input
-                id="date"
-                placeholder="dd/mm/yyyy"
-                value={date}
-                type="date"
-                onChange={(event) => setDate(event.target.value)}
+              <label htmlFor="hours">Data de entrega</label>
+
+              <DatePicker
+                //onChange={(event) => setDate(event.target.value)}
+                value={ inputDate === null ? null : new Date(inputDate)}
+                format={"dd-MM-yyyy"}
+                
               />
+
             </div>
 
           </fieldset>
