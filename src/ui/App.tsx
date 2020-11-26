@@ -162,6 +162,7 @@ function App() {
     setComplement("");
     setDate(null);
     setPosition(null);
+    setIsEditing(false)
   }
 
   async function modifierDelivery(event: any) {
