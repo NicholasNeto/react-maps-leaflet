@@ -108,7 +108,7 @@ function App() {
 
     let temporaryDeliverieses: Delivery[] = [...deliveries,]
 
-    const date: string = inputDate.toDateString()
+    const date: string = inputDate.toISOString()
 
     let delivery: Delivery = {
       id: uuidv4(),
@@ -225,7 +225,7 @@ function App() {
               <label htmlFor="hours">Data de entrega</label>
 
               <DatePicker
-                //onChange={(event) => setDate(event.target.value)}
+                onChange={(event: any) => setDate(new Date(event.toISOString()))}
                 value={ inputDate === null ? null : new Date(inputDate)}
                 format={"dd-MM-yyyy"}
                 
