@@ -5,7 +5,7 @@ import { shallow, configure } from 'enzyme';
 
 configure({ adapter: new Adapter() });
 describe("[UNIT] Testing the CustomPopup component", () => {
-  let wrapper
+  let wrapper : any
 
   beforeEach(() => {
     const delivery = {
