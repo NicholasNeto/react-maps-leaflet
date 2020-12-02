@@ -8,14 +8,14 @@
   desafios sugeridos e inclusão de testes unitários. 
 </p>
 
-
-<img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
-<img alt='Issues' src='https://img.shields.io/github/issues/NicholasNeto/react-maps-leaflet' />
-<img alt='Forks' src='https://img.shields.io/github/forks/NicholasNeto/react-maps-leaflet' />
-<img alt='Start' src='https://img.shields.io/github/stars/NicholasNeto/react-maps-leaflet' />
-<img alt='License' src='https://img.shields.io/github/license/NicholasNeto/react-maps-leaflet' />
-<img alt='Twitter' src='https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FNicholasNeto%2Freact-maps-leaflet' />
-
+<p align="center">
+  <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
+  <img alt='Issues' src='https://img.shields.io/github/issues/NicholasNeto/react-maps-leaflet' />
+  <img alt='Forks' src='https://img.shields.io/github/forks/NicholasNeto/react-maps-leaflet' />
+  <img alt='Start' src='https://img.shields.io/github/stars/NicholasNeto/react-maps-leaflet' />
+  <img alt='License' src='https://img.shields.io/github/license/NicholasNeto/react-maps-leaflet' />
+  <img alt='Twitter' src='https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FNicholasNeto%2Freact-maps-leaflet' />
+</p>
 
 Tabela de conteúdos
 =================
@@ -34,9 +34,13 @@ Tabela de conteúdos
 <!--te-->
 
 <h4 align="center"> 
-	🚧  🚀 Em construção...  🚧
+	🚧 🚀 Em construção...  🚧
 </h4>
 
+
+<h1 align="center">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/banner.png" />
+</h1>
 ## Install
 
 ```sh
