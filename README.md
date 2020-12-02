@@ -1,9 +1,41 @@
+# Nome do Projeto 
 <h1 align="center">Welcome to Mapas & React & Leaflet 👋</h1>
+
+## Descrição do Projeto
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
+  Projeto que tem como objetivo aprimoramento de conhecimento em React e criação de mapas com a biblioteca React Leaflet. 
+  Base do código https://blog.rocketseat.com.br/mapas-com-react-usando-leaflet/, o código foi aprimorado utilizando os
+  desafios sugeridos e inclusão de testes unitários. 
 </p>
 
-> Aprimoramento de conhecimento em react e leaflet
+
+<img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
+<img alt='Issues' src='https://img.shields.io/github/issues/NicholasNeto/react-maps-leaflet' />
+<img alt='Forks' src='https://img.shields.io/github/forks/NicholasNeto/react-maps-leaflet' />
+<img alt='Start' src='https://img.shields.io/github/stars/NicholasNeto/react-maps-leaflet' />
+<img alt='License' src='https://img.shields.io/github/license/NicholasNeto/react-maps-leaflet' />
+<img alt='Twitter' src='https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FNicholasNeto%2Freact-maps-leaflet' />
+
+
+Tabela de conteúdos
+=================
+<!--ts-->
+   * [Sobre](#Sobre)
+   * [Tabela de Conteudo](#tabela-de-conteudo)
+   * [Instalação](#instalacao)
+   * [Como usar](#como-usar)
+      * [Pre Requisitos](#pre-requisitos)
+      * [Local files](#local-files)
+      * [Remote files](#remote-files)
+      * [Multiple files](#multiple-files)
+      * [Combo](#combo)
+   * [Tests](#testes)
+   * [Tecnologias](#tecnologias)
+<!--te-->
+
+<h4 align="center"> 
+	🚧  🚀 Em construção...  🚧
+</h4>
 
 ## Install
 
