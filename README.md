@@ -52,7 +52,6 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 ### 🎲 Rodando o Applicação (web)
 
-```bash
 # Clone este repositório
 $ git clone <https://github.com/NicholasNeto/react-maps-leaflet.git>
 
