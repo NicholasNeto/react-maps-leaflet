@@ -33,31 +33,53 @@ Tabela de conteúdos
    * [Tecnologias](#tecnologias)
 <!--te-->
 
+## Status Projeto
 <h4 align="center"> 
 	🚧 🚀 Em construção...  🚧
 </h4>
 
+## Demonstração da aplicação
 
 <h1 align="center">
   <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/banner.png" />
 </h1>
-## Install
 
-```sh
-yarn install
-```
+### Pré-requisitos
 
-## Usage
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-```sh
-yarn start
-```
+### 🎲 Rodando o Applicação (web)
 
-## Run tests
+```bash
+# Clone este repositório
+$ git clone <https://github.com/NicholasNeto/react-maps-leaflet.git>
 
-```sh
-yarn run test
-```
+# Acesse a pasta do projeto no terminal/cmd
+$ cd react-maps-leaflet
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação
+$ npm run start
+
+# A applicação inciará na porta:3000 - acesse <http://localhost:3000>
+
+### 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [Expo](https://expo.io/)
+- [Node.js](https://nodejs.org/en/)
+- [React](https://pt-br.reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [React Leaflet](https://react-leaflet.js.org/)
+- [React Date Picker](https://github.com/wojtekmaj/react-date-picker#readme)
+- [JEST](https://jestjs.io/)
+- [Enzyme](https://enzymejs.github.io/enzyme/)
+
 
 ## Author
 
