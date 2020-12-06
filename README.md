@@ -18,10 +18,10 @@
 </p>
 
 
-<img border-radius="8px" width="50" height="50"  src="/assets/page3.png" />
-<img border-radius="8px" width="50" height="50" src="/assets/page3.png" />
-<img border-radius="8px" width="50" height="50" src="/assets/page3.png" />
-<img border-radius="8px" width="50" height="50" src="/assets/page3.png" />
+<img border-radius="8px" width="100" height="100"  src="/assets/page3.png" />
+<img border-radius="8px" width="100" height="100" src="/assets/page3.png" />
+<img border-radius="8px" width="100" height="100" src="/assets/page3.png" />
+<img border-radius="8px" width="100" height="100" src="/assets/page3.png" />
 
 <p align="center">
  <a href="#objetivo">Objetivo</a>
