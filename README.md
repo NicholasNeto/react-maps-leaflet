@@ -26,12 +26,10 @@
 </div>
 
 <p align="center">
- <a href="#objetivo">Objetivo</a>
- <a href="#roadmap">Roadmap</a> 
- <a href="#tecnologias">Tecnologias</a>
- <a href="#contribuicao">Contribuição</a>
- <a href="#licenc-a">Licença</a>
- <a href="#autor">Autor</a>
+ <a href="#objetivo">Sattus da Applicação</a>
+ <a href="#roadmap">Pré-requisitos</a> 
+ <a href="#tecnologias">Rodando o Applicação (web)</a>
+ <a href="#contribuicao">Tecnologias</a>
 </p>
 
 
@@ -39,12 +37,6 @@
 <h4 align="center"> 
 	🚧 🚀 Em construção...  🚧
 </h4>
-
-## Demonstração da aplicação
-
-<h1 align="center">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/banner.png" />
-</h1>
 
 ### Pré-requisitos
 
