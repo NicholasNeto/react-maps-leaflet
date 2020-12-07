@@ -19,10 +19,10 @@
 
 
 <div display=flex>
-  <img border-radius="8px" width="150" height="150"  src="/assets/page3.png" />
+  <img border-radius="8px" width="150" height="150"  src="/assets/page1.png" />
+  <img border-radius="8px" width="150" height="150" src="/assets/page2.png" />
   <img border-radius="8px" width="150" height="150" src="/assets/page3.png" />
-  <img border-radius="8px" width="150" height="150" src="/assets/page3.png" />
-  <img border-radius="8px" width="150" height="150" src="/assets/page3.png" />
+  <img border-radius="8px" width="150" height="150" src="/assets/page4.png" />
 </div>
 
 <p align="center">
