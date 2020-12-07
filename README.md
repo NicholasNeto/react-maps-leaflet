@@ -54,35 +54,49 @@ Além disto, é bom ter um editor para trabalhar com o código como [VSCode](htt
 
 </div>
 
-### 🎲 Rodando o Applicação (web)
 
-```bash
-# Clone este repositório
-$ git clone <https://github.com/NicholasNeto/react-maps-leaflet.git>
+<section id='runningApp'>
 
-# Acesse a pasta do projeto no terminal/cmd
-$ cd react-maps-leaflet   
+  ### 🎲 Rodando o Applicação (web)
 
-# Instale as dependências
-$ npm install
+  ```bash
+  # Clone este repositório
+  $ git clone <https://github.com/NicholasNeto/react-maps-leaflet.git>
 
-# Execute a aplicação
-$ npm run start
+  # Acesse a pasta do projeto no terminal/cmd
+  $ cd react-maps-leaflet   
 
-# Execute teste
-$ npm test
+  # Instale as dependências
+  $ npm install
 
-# Pick the options
+  # Execute a aplicação
+  $ npm run start
 
- › Press a to run all tests.
- › Press f to run only failed tests.
- › Press q to quit watch mode.
- › Press p to filter by a filename regex pattern.
- › Press t to filter by a test name regex pattern.
- › Press Enter to trigger a test run.
+  # A applicação inciará na porta:3000 - acesse <http://localhost:3000>
 
-# A applicação inciará na porta:3000 - acesse <http://localhost:3000>
-```
+  ```
+
+</section>
+<section id='runningTest'>
+
+  ### 🎲 Rodando o Applicação (web)
+
+  ```bash
+  # Execute teste
+  $ npm test
+
+  # Pick the options
+
+  › Press a to run all tests.
+  › Press f to run only failed tests.
+  › Press q to quit watch mode.
+  › Press p to filter by a filename regex pattern.
+  › Press t to filter by a test name regex pattern.
+  › Press Enter to trigger a test run.
+  
+  ```
+</section>
+
 
 <div id='technology'>
 
