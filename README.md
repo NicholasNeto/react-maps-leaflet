@@ -32,13 +32,12 @@
 
 <section id='content' >
     <p align="center">
-      <a href="#content">Conteúdo</a>
       <a href="#projectStatus">Sattus da Applicação</a>
       <a href="#requirements">Pré-requisitos</a> 
       <a href="#runningApp">Rodando o Applicação (Web)</a>
       <a href="#runningTest">Rodando os Teste (Unitários)</a>
       <a href="#technology">Tecnologias</a>
-      <a href="#author">Tecnologias</a>
+      <a href="#author">Autor</a>
   </p>
 </section>
 
@@ -48,7 +47,7 @@
 
   ## Status Projeto
   <h4 align="center"> 
-    🚧 🚀 Em construção...  🚧
+    🚧 Em construção...  🚧
   </h4>
 
 </section>
