@@ -33,11 +33,11 @@
 <section id='content' >
     <p align="center">
       <a href="#projectStatus">Sattus da Applicação</a>
-      <a href="#requirements">Pré-requisitos</a> 
       <a href="#runningApp">Rodando o Applicação (Web)</a>
       <a href="#runningTest">Rodando os Teste (Unitários)</a>
       <a href="#technology">Tecnologias</a>
       <a href="#author">Autor</a>
+      <a href="#requirements">Pré-requisitos</a> 
   </p>
 </section>
 
