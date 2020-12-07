@@ -30,9 +30,9 @@
 
 <p align="center">
  <a href="#objetivo">Sattus da Applicação</a>
- <a href="#roadmap">Pré-requisitos</a> 
- <a href="#tecnologias">Rodando o Applicação (web)</a>
- <a href="#tecnologias">Tecnologias</a>
+ <a href="#requirements">Pré-requisitos</a> 
+ <a href="#technology">Rodando o Applicação (web)</a>
+ <a href="#technology">Tecnologias</a>
 </p>
 
 
@@ -41,11 +41,18 @@
 	🚧 🚀 Em construção...  🚧
 </h4>
 
+
+
+
+<div id='requirements'>
+
 ### Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
 Além disto, é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
+</div>
 
 ### 🎲 Rodando o Applicação (web)
 
@@ -77,7 +84,7 @@ $ npm test
 # A applicação inciará na porta:3000 - acesse <http://localhost:3000>
 ```
 
-<div id='tecnologias'>
+<div id='technology'>
 
 ### 🛠 Tecnologias
 
