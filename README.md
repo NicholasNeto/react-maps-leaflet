@@ -25,14 +25,14 @@
 
 <div display=flex align="center">
   <img border-radius="8px" width="400" height="300" src="/assets/page3.png" />
-  <img border-radius="8px" width="400 " height="300" src="/assets/page4.png" />
+  <img border-radius="8px" width="400" height="300" src="/assets/page4.png" />
 </div>
 
 <p align="center">
  <a href="#objetivo">Sattus da Applicação</a>
  <a href="#roadmap">Pré-requisitos</a> 
  <a href="#tecnologias">Rodando o Applicação (web)</a>
- <a href="#contribuicao">Tecnologias</a>
+ <a href="#tecnologias">Tecnologias</a>
 </p>
 
 
@@ -62,8 +62,22 @@ $ npm install
 # Execute a aplicação
 $ npm run start
 
+# Execute teste
+$ npm test
+
+# Pick the options
+
+ › Press a to run all tests.
+ › Press f to run only failed tests.
+ › Press q to quit watch mode.
+ › Press p to filter by a filename regex pattern.
+ › Press t to filter by a test name regex pattern.
+ › Press Enter to trigger a test run.
+
 # A applicação inciará na porta:3000 - acesse <http://localhost:3000>
 ```
+
+<div id='tecnologias'>
 
 ### 🛠 Tecnologias
 
@@ -77,6 +91,9 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [React Date Picker](https://github.com/wojtekmaj/react-date-picker#readme)
 - [JEST](https://jestjs.io/)
 - [Enzyme](https://enzymejs.github.io/enzyme/)
+
+
+</div>
 
 
 ## Author
