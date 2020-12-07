@@ -28,23 +28,34 @@
   <img border-radius="8px" width="400" height="300" src="/assets/page4.png" />
 </div>
 
-<p align="center">
- <a href="#objetivo">Sattus da Applicação</a>
- <a href="#requirements">Pré-requisitos</a> 
- <a href="#technology">Rodando o Applicação (web)</a>
- <a href="#technology">Tecnologias</a>
-</p>
 
 
-## Status Projeto
-<h4 align="center"> 
-	🚧 🚀 Em construção...  🚧
-</h4>
+<section id='content' >
+    <p align="center">
+      <a href="#content">Conteúdo</a>
+      <a href="#projectStatus">Sattus da Applicação</a>
+      <a href="#requirements">Pré-requisitos</a> 
+      <a href="#runningApp">Rodando o Applicação (Web)</a>
+      <a href="#runningTest">Rodando os Teste (Unitários)</a>
+      <a href="#technology">Tecnologias</a>
+      <a href="#author">Tecnologias</a>
+  </p>
+</section>
 
 
 
+<section id='projectStatus' >
 
-<div id='requirements'>
+  ## Status Projeto
+  <h4 align="center"> 
+    🚧 🚀 Em construção...  🚧
+  </h4>
+
+</section>
+
+
+
+<section id='requirements'>
 
 ### Pré-requisitos
 
@@ -52,12 +63,12 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
 Além disto, é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-</div>
+</section>
 
 
 <section id='runningApp'>
 
-  ### 🎲 Rodando o Applicação (web)
+  ### Rodando o Applicação (web)
 
   ```bash
   # Clone este repositório
@@ -77,9 +88,10 @@ Além disto, é bom ter um editor para trabalhar com o código como [VSCode](htt
   ```
 
 </section>
+
 <section id='runningTest'>
 
-  ### 🎲 Rodando o Applicação (web)
+  ### Rodando os Teste (Unitários)
 
   ```bash
   # Execute teste
@@ -93,12 +105,12 @@ Além disto, é bom ter um editor para trabalhar com o código como [VSCode](htt
   › Press p to filter by a filename regex pattern.
   › Press t to filter by a test name regex pattern.
   › Press Enter to trigger a test run.
-  
+
   ```
 </section>
 
 
-<div id='technology'>
+<section id='technology'>
 
 ### 🛠 Tecnologias
 
@@ -114,8 +126,9 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Enzyme](https://enzymejs.github.io/enzyme/)
 
 
-</div>
+</section>
 
+<section id='author'>
 
 ## Author
 
@@ -124,6 +137,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 * Website: Nicholas
 * Github: [@NicholasNeto](https://github.com/NicholasNeto)
 
+</section>
 ## Show your support
 
 Give a ⭐️ if this project helped you!
