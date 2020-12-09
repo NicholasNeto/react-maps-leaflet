@@ -28,10 +28,10 @@
   <img border-radius="8px" width="400" height="300" src="/assets/page4.png" />
 </div>
 
-
-
 <section id='content' >
-    <p align="center">
+
+  ## Conteúdo
+  <p align="center">
       <a href="#projectStatus">Sattus da Applicação</a>
       <a href="#requirements">Pré-requisitos</a>
       <a href="#runningApp">Rodando o Applicação (Web)</a>
@@ -40,8 +40,6 @@
       <a href="#author">Autor</a>
   </p>
 </section>
-
-
 
 <section id='projectStatus' >
 
@@ -115,7 +113,6 @@ Além disto, é bom ter um editor para trabalhar com o código como [VSCode](htt
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [Expo](https://expo.io/)
 - [Node.js](https://nodejs.org/en/)
 - [React](https://pt-br.reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
@@ -123,7 +120,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [React Date Picker](https://github.com/wojtekmaj/react-date-picker#readme)
 - [JEST](https://jestjs.io/)
 - [Enzyme](https://enzymejs.github.io/enzyme/)
-
 
 </section>
 
