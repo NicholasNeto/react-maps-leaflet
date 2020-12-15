@@ -1,5 +1,7 @@
-## Nome do Projeto 
-<h1 align="center">Welcome to Fast Delivery </h1>
+<p align="center">
+  <img alt="Banner" src="/assets/banner.png" />
+</p>
+<h1 align="center"> Fast Delivery </h1>
 
 ## Descrição do Projeto
 <p>
@@ -32,9 +34,9 @@
 
   ## Conteúdo
   <p align="center">
-      <a href="#projectStatus">Sattus da Applicação</a>
+      <a href="#projectStatus">Sattus da Aplicação</a>
       <a href="#requirements">Pré-requisitos</a>
-      <a href="#runningApp">Rodando o Applicação (Web)</a>
+      <a href="#runningApp">Rodando o Aplicação (Web)</a>
       <a href="#runningTest">Rodando os Teste (Unitários)</a>
       <a href="#technology">Tecnologias</a>
       <a href="#author">Autor</a>
@@ -65,7 +67,7 @@ Além disto, é bom ter um editor para trabalhar com o código como [VSCode](htt
 
 <section id='runningApp'>
 
-  ### Rodando o Applicação (web)
+  ### Rodando o Aplicação (web)
 
   ```bash
   # Clone este repositório
