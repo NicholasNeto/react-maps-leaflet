@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Banner" src="/assets/banner.png" />
+  <img alt="Banner" width="400" height="300" src="/assets/banner.png" />
 </p>
 <h1 align="center"> Fast Delivery </h1>
 
