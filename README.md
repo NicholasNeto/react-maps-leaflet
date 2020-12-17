@@ -19,9 +19,8 @@
   <img alt='Twitter' src='https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FNicholasNeto%2Freact-maps-leaflet' />
 </p>
 
-
 <div display=flex align="center">
-  <img src="/assets/teste.gif" />
+  <img alt="Version" src="https://media.giphy.com/media/uHcs6ijl7GUfNfF5xH/giphy.gif" />
 </div>
 
 
