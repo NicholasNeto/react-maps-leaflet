@@ -21,6 +21,11 @@
 
 
 <div display=flex align="center">
+  <img src="/assets/teste.gif" />
+</div>
+
+
+<div display=flex align="center">
   <img border-radius="8px" width="400" height="300"  src="/assets/page1.png" />
   <img border-radius="8px" width="400" height="300" src="/assets/page2.png" />
 </div>
