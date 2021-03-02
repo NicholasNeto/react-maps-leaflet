@@ -16,7 +16,7 @@ describe("[UNIT] Testing the CustomPopup component", () => {
 
   beforeEach(() => {
 
-    delivery = {
+    delivery: Interface = {
       name: 'name test',
       address: 'address test',
       componen: 'componen test',
